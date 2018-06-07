@@ -10,18 +10,14 @@ import c0738175_midterm_mad3464.BinaryToDecimal;
  * @author macstudent
  */
 public class BinaryToDecimal {
-    
- public static int decimalToBinary(int num) {
-int result = 0;
-while(num > 0){
 
-
-    int mod = num % 2;
-    result = result * 1 + mod;
-
-   
+String binary="1010";  
+int decimal= "100" 
+System.out.println(decimal);  
 }
- return result;
+}
+ 
+  
             
           
  
