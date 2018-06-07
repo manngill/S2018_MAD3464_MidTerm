@@ -14,6 +14,15 @@ public class Reverse {
     
    String input = "Lambton";
 
+    public Reverse()
+    {
+        
+    }
+    char[] temp = input.toCharArray();
+        int i = 0 , j =0;
+        int j = temp.length-1;
+        
+
     public String getInput() {
         return input;
     }
@@ -45,10 +54,9 @@ public class Reverse {
     public void setJ(int j) {
         this.j = j;
     }
-        char[] temp = input.toCharArray();
-        int i = 0 , j =0;
-        int j = temp.length-1;
-        
+       
+                
+               
                 
         
     for (i=0; i < j ; i++ )
