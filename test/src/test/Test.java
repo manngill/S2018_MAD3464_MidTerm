@@ -3,25 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package c0738175_midterm_mad3464;
+package test;
 
 /**
  *
  * @author macstudent
  */
-public class C0738175_MidTerm_MAD3464 {
+public class Test {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
-      lambtoncollege R = new lambtoncollege();
-      R.reverse("Lambton");
-       
-   
-     
+        // TODO code application logic here
     }
     
 }

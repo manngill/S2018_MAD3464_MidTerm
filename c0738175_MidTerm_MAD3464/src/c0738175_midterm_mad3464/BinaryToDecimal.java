@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package c0738175_midterm_mad3464;
+/*//package c0738175_midterm_mad3464;
 import c0738175_midterm_mad3464.BinaryToDecimal;
 /**
  *
  * @author macstudent
  */
-public class BinaryToDecimal {
+/*public class BinaryToDecimal {
 
     public BinaryToDecimal() {
     }
@@ -40,14 +40,14 @@ public void display()
     System.out.println("Value of Decimal " + decimal);
 
 }
- 
+
   
             
           
  
           
-          
+}        
     
-}
+
     
-}
+
