@@ -13,12 +13,45 @@ package c0738175_midterm_mad3464;
 public class Reverse {
     
    String input = "Lambton";
+
+    public String getInput() {
+        return input;
+    }
+
+    public void setInput(String input) {
+        this.input = input;
+    }
+
+    public char[] getTemp() {
+        return temp;
+    }
+
+    public void setTemp(char[] temp) {
+        this.temp = temp;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public int getJ() {
+        return j;
+    }
+
+    public void setJ(int j) {
+        this.j = j;
+    }
         char[] temp = input.toCharArray();
         int i = 0 , j =0;
         int j = temp.length-1;
         
+                
         
-    for (i=0; i < j ; i++ ;j--)
+    for (i=0; i < j ; i++ )
         {
             
             char t = temp[i];
@@ -28,7 +61,7 @@ public class Reverse {
  
         public void display()
         {
-            System.out.println(temp);
+            System.out.println();
         }
        
     
