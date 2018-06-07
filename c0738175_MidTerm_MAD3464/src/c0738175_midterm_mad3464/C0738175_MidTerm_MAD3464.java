@@ -16,8 +16,13 @@ public class C0738175_MidTerm_MAD3464 {
      */
     public static void main(String[] args) {
        System.out.println("Enter String ");
-       reverse r1 = new reverse;
+       ReverseString r1 = new ReverseString;
        r1.display();
+       
+   
+       BinaryToDecimal input = new BinaryToDecimal();
+       System.out.print("Enter a binary number: ");
+       
     }
     
 }
