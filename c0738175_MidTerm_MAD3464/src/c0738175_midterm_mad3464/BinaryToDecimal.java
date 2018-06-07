@@ -10,10 +10,23 @@ import c0738175_midterm_mad3464.BinaryToDecimal;
  * @author macstudent
  */
 public class BinaryToDecimal {
-    public static void main(String args[]){
-       BinaryToDecimal input = new BinaryToDecimal();
-       System.out.print("Enter a binary number: ");
-       
+    
+ public static int decimalToBinary(int num) {
+int result = 0;
+while(num > 0){
+
+
+    int mod = num % 2;
+    result = result * 1 + mod;
+
+   
+}
+ return result;
+            
+          
+ 
+          
+          
     
 }
     
