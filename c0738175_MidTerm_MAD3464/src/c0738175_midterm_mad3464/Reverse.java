@@ -17,6 +17,7 @@ public class Reverse {
         int i = 0 , j =0;
         int j = temp.length-1;
         
+        
     for (i=0; i < j ; i++ ;j--)
         {
             
@@ -25,6 +26,10 @@ public class Reverse {
             temp[j]=t;
         }
  
+        public void display()
+        {
+            System.out.println(temp);
+        }
        
     
 }
