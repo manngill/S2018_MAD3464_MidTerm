@@ -11,10 +11,33 @@ import c0738175_midterm_mad3464.BinaryToDecimal;
  */
 public class BinaryToDecimal {
 
+    public BinaryToDecimal() {
+    }
+
 String binary="1010";  
-int decimal= "100" 
-System.out.println(decimal);  
-}
+int decimal= 10; 
+
+    public String getBinary() {
+        return binary;
+    }
+
+    public void setBinary(String binary) {
+        this.binary = binary;
+    }
+
+    public int getDecimal() {
+        return decimal;
+    }
+
+    public void setDecimal(int decimal) {
+        this.decimal = decimal;
+    }
+
+
+public void display()
+{
+    
+
 }
  
   
