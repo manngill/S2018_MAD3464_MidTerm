@@ -36,7 +36,8 @@ int decimal= 10;
 
 public void display()
 {
-    
+   
+    System.out.println("Value of Decimal " + decimal);
 
 }
  
